@@ -1,0 +1,103 @@
+@import "./Variables.scss";
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    box-sizing: border-box;
+
+}
+.bodyPadding {
+    padding: 0 clamp(10px, 3vw, 50px);
+}
+.view {
+    &.v-enter-from,
+    &.v-leave-to {
+        transform: scale(1.1);
+    }
+}
+body {
+    background-color: $primaryBackground;
+    transition: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+.v-enter-active,
+.v-leave-active {
+  transition: 1s ease;
+}
+.flex {
+  display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.twoColumns {
+    display: grid;
+    grid-template-columns: 40% auto;
+    gap: 50px;
+}
+.flexContainer {
+    display: flex;
+    .container {
+        flex-grow: 1;
+    }
+}
+
+html {
+    // overflow-y: scroll;
+	// cursor: none !important;
+    scroll-behavior: smooth;
+	* {
+        scroll-behavior: smooth;
+		// cursor: none !important;
+	}
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "font-heading";
+}
+
+.mr-0 {
+  margin-right: 0 !important;
+}
+
+.mt-2 {
+  margin-top: 1rem;
+}
+
+.py-76 {
+  padding-top: 76px;
+  padding-bottom: 76px;
+}
+
+.px-24 {
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+
+@font-face {
+	font-family: "font-regular";
+	src: url("@/assets/swiss/cuts/webfiles/SuisseIntl-Regular-WebM.woff")
+		format("woff");
+}
+@font-face {
+	font-family: "font-heading";
+	src: url("@/assets/swiss/cuts/webfiles/SuisseWorks-Regular-WebS.woff")
+		format("woff");
+}
+
+@media screen and (max-width: 900px) {
+  .bodyPadding {
+    padding: 0 24px;
+  }
+}

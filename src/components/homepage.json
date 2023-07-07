@@ -1,0 +1,167 @@
+{
+    "title": "Fremtidens digitale løsninger",
+    "tagline": "Web, video og 3D-løsninger fra fremtiden til dig.",
+    "person": "https://picsum.photos/250/300",
+    "latest": "/dev/images/WRJ Media - Billeder/Forside/boat.mp4",
+    "services": {
+        "heading": "Ydelser",
+        "description": "A non a sit consequat sed pellentesque ac mattis. Erat mauris venenatis est enim sit dolor praesent. Est tortor sed molestie tempus justo ipsum.",
+        "serviceGroups": [
+            {
+                "title": "Web",
+                "services": [
+                    {
+                        "title": "Firma hjemmeside",
+                        "content": "Udvikling af en moderne og funktionel firma-hjemmeside, der er designet til at generere salg. Lad os skabe en hjemmeside, der opfylder alle de krav og principper, din virksomhed har."
+                    },
+                    {
+                        "title": "Animeret interaktiv side",
+                        "content": "Ønsker I, at jeres hjemmeside skal være mere end blot en statisk præsentation? Et eksempel kunne være en forside, hvor besøgende bliver ført gennem jeres produkt som en interaktiv 3D-model, mens de scroller."
+                    },
+                    {
+                        "title": "Webshop",
+                        "content": "Få en fuldt funktionel webshop leveret og klar til salg. Hos WRJ Media specialiserer vi os i udviklingen af e-handelsplatforme, der er skræddersyet til både private og erhvervslivet. Vi tilbyder også tilpassede og sammenhængende funktioner, der hjælper dine kunder med at forstå dit produkt."
+                    },
+                    {
+                        "title": "Webapp",
+                        "content": "Vi kan udvikle en skræddersyet webbaseret app tilpasset din virksomhed. Et eksempel kunne være et værktøj med en beregner, der måler væskeniveauet i en maskine og sender rapporten direkte til dine kunder."
+                    }
+                ]
+            },
+            {
+                "title": "Video",
+                "services": [
+                    {
+                        "title": "Virksomheds video",
+                        "content": "Vi har omfattende erfaring med at skabe professionelle videoer og indhold, der styrker dit brand og øger salget."
+                    },
+                    {
+                        "title": "Explainer",
+                        "content": "Lad os hjælpe med at forklare dit produkt eller din virksomhed gennem en smuk og effektiv video, som verden aldrig vil glemme."
+                    },
+                    {
+                        "title": "Reklame",
+                        "content": "Salg af et produkt kan være en udfordring, men med en video fra os kan vi garantere, at det bliver lettere for dig."
+                    }
+                ]
+            },
+            {
+                "title": "Udstilling",
+                "services": [
+                    {
+                        "title": "Digital 3D-Model",
+                        "content": "Vi kan designe en præcis 3D-model, der repræsenterer dit produkt eller din geniale idé. Øg salget af dit produkt ved at præsentere en fejlfri og iøjnefaldende 3D-model, der vækker opsigt hos dine kunder."
+                    },
+                    {
+                        "title": "Fysisk markedsføringsmateriale",
+                        "content": "Vi producerer skarp grafik, der fremviser jeres tjenester i samme stil som resten af jeres brand. Vi tilbyder også at udføre trykningen for jer gennem vores eksterne print-partner."
+                    }
+                ]
+            }
+        ]
+    },
+    "featured": [
+        {
+            "pathId": "bc-webapp",
+            "title": "Bio-Circle Webapp",
+            "description": "Vi hos WRJ Media er stolte af at have udviklet en banebrydende app, der har vist sig at være en stor fordel for både kunder og medarbejdere hos Bio-Circle. Vores app er skabt med fokus på at skabe en enestående oplevelse for både kunder og medarbejdere hos Bio-Circle. Med en intuitiv brugergrænseflade og avancerede funktioner har vores app gjort hverdagen lettere for medarbejderne hos Bio-Circle.",
+            "customer": "Bioteknologivirksomhed",
+            "service": "Webapp",
+            "images": [
+                "/dev/images/WRJ Media - Billeder/Forside/Cases/biocircle/bc-case-frontimage.webp"
+            ]
+        },
+        {
+            "pathId": "one-roar",
+            "title": "One roar",
+            "description": "Vi hos WRJ Media er stolte af at have udviklet en banebrydende app, der har vist sig at være en stor fordel for både kunder og medarbejdere hos Bio-Circle. Vores app er skabt med fokus på at skabe en enestående oplevelse for både kunder og medarbejdere hos Bio-Circle. Med en intuitiv brugergrænseflade og avancerede funktioner har vores app gjort hverdagen lettere for medarbejderne hos Bio-Circle.",
+            "customer": "Hi-fi",
+            "service": "3D Rendering",
+            "images": [
+                "/dev/images/WRJ Media - Billeder/Forside/Cases/biocircle/bc-case-frontimage.webp"
+            ]
+        },
+        {
+            "pathId": "bc-webapp",
+            "title": "Den sidste case",
+            "description": "Vi hos WRJ Media er stolte af at have udviklet en banebrydende app, der har vist sig at være en stor fordel for både kunder og medarbejdere hos Bio-Circle. Vores app er skabt med fokus på at skabe en enestående oplevelse for både kunder og medarbejdere hos Bio-Circle. Med en intuitiv brugergrænseflade og avancerede funktioner har vores app gjort hverdagen lettere for medarbejderne hos Bio-Circle.",
+            "customer": "Bioteknologivirksomhed",
+            "service": "Webapp",
+            "images": [
+                "/dev/images/WRJ Media - Billeder/Forside/Cases/biocircle/bc-case-frontimage.webp"
+            ]
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "logo": "/dev/images/WRJ Media - Billeder/Forside/Customers/Logos/davano.svg",
+            "name": "DAVANO"
+        },
+        {
+            "id": 2,
+            "logo": "/dev/images/WRJ Media - Billeder/Forside/Customers/Logos/bio-circle.svg",
+            "name": "BIO-CIRCLE"
+        },
+        {
+            "id": 3,
+            "logo": "/dev/images/WRJ Media - Billeder/Forside/Customers/Logos/opfrisk.svg",
+            "name": "OPFRISK"
+        },
+        {
+            "id": 4,
+            "logo": "/dev/images/WRJ Media - Billeder/Forside/Customers/Logos/flowy.svg",
+            "name": "FLOWY"
+        },
+        {
+            "id": 5,
+            "logo": "/dev/images/WRJ Media - Billeder/Forside/Customers/Logos/ready-2-clean.svg",
+            "name": "READY-2-CLEAN"
+        },
+        {
+            "id": 6,
+            "logo": "/dev/images/WRJ Media - Billeder/Forside/Customers/Logos/plejekassen.svg",
+            "name": "PLEJEKASSEN"
+        },
+        {
+            "id": 7,
+            "logo": "/dev/images/WRJ Media - Billeder/Forside/Customers/Logos/hairkompagniet.svg",
+            "name": "HAIRKOMPAGNIET"
+        },
+        {
+            "id": 8,
+            "logo": "/dev/images/WRJ Media - Billeder/Forside/Customers/Logos/plant-et-trae.svg",
+            "name": "PLANT-ET-TRAE"
+        }
+    ],
+    "reports": [
+        {
+            "id": 1,
+            "quote": "Green Stuff World er en virksomhed baseret i Spanien, som specialicere sig i design, værktøjer, maling og andre typer ressourcer til",
+            "customerName": "Bio-Circle Surface Technology ApS",
+            "customerPerson": "Carsten Bødker",
+            "customerLogo": "/dev/images/WRJ Media - Billeder/Forside/Customers/People/customerphoto-1.svg"
+        },
+        {
+            "id": 1,
+            "quote": "Green Stuff World er en virksomhed baseret i Spanien, som specialicere sig i design, værktøjer, maling og andre typer ressourcer til",
+            "customerName": "Dansk Virksomhed",
+            "customerPerson": "Claus Clausen",
+            "customerLogo": "/dev/images/WRJ Media - Billeder/Forside/Customers/People/customerphoto-1.svg"
+        },
+        {
+            "id": 1,
+            "quote": "Green Stuff World er en virksomhed baseret i Spanien, som specialicere sig i design, værktøjer, maling og andre typer ressourcer til",
+            "customerName": "Bio-Circle",
+            "customerPerson": "Carsten Bødker",
+            "customerLogo": "/dev/images/WRJ Media - Billeder/Forside/Customers/People/customerphoto-1.svg"
+        },
+        {
+            "id": 1,
+            "quote": "Green Stuff World er en virksomhed baseret i Spanien, som specialicere sig i design, værktøjer, maling og andre typer ressourcer til",
+            "customerName": "Dansk Virksomhed",
+            "customerPerson": "Claus Clausen",
+            "customerLogo": "/dev/images/WRJ Media - Billeder/Forside/Customers/People/customerphoto-1.svg"
+        }
+    ]
+}

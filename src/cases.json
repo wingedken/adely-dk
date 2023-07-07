@@ -1,0 +1,82 @@
+[
+    {
+        "pathId": "one-roar",
+        "title": "Astronaut ved brand",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem perferendis similique libero est odit perspiciatis fugiat repellendus nisi ex incidunt! Unde iste soluta odio sed maxime mollitia odit cumque eligendi?",
+        "customer": "Webshop",
+        "service": "3D Rendering",
+        "caseImage": "/dev/images/casePage/maxresDefault-1.png",
+        "gallery": [
+            "/dev/images/casePage/case1-billede1.png",
+            "/dev/images/casePage/case1-billede2.png",
+            "/dev/images/casePage/case1-billede3.png",
+            "/dev/images/casePage/case1-billede4.png",
+            "/dev/images/casePage/case1-billede5.png",
+            "/dev/images/casePage/case1-billede6.png",
+            "/dev/images/casePage/space_man5_00371.png"
+        ],
+        "backgroundColor": "#64BCE9",
+        "programs": [
+            "Blender",
+            "Eeevee"
+        ]
+    },
+    {
+        "pathId": "bc-webapp",
+        "title": "Dipping Ink",
+        "description": "Green Stuff World er en virksomhed baseret i Spanien, som specialicere sig i design, værktøjer, maling og andre typer ressourcer til modellering, kunsthåndværk og krigsspil. Vi har i dette tilfælde fået lov at lave en 3D-animeret reklamevideo til miniaturemaling. At male græskar var en vanskelig del af dette projekt, og effekten blev opnået ved at kombinere grå og farvede gengivelsespassager af græskarene ved hjælp af luma-masker. Det fuldendte resultat af reklamevideoen blev lavet af vores partner som primært står for det meste i 3D branchen hos WRJ Media.",
+        "customer": "Webshop",
+        "service": "Webapp",
+        "caseImage": "/dev/images/casePage/maxresDefault-1.png",
+        "gallery": [
+            "/dev/images/casePage/case1-billede1.png",
+            "/dev/images/casePage/case1-billede2.png",
+            "/dev/images/casePage/case1-billede3.png",
+            "/dev/images/casePage/case1-billede4.png",
+            "/dev/images/casePage/case1-billede5.png",
+            "/dev/images/casePage/case1-billede6.png",
+            "/dev/images/casePage/space_man5_00371.png"
+        ],
+        "backgroundColor": "#64BCE9",
+        "programs": [
+            "Blender",
+            "Eeevee"
+        ]
+    },
+    {
+        "pathId": "two-roar",
+        "title": "Two roar",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem perferendis similique libero est odit perspiciatis fugiat repellendus nisi ex incidunt! Unde iste soluta odio sed maxime mollitia odit cumque eligendi?",
+        "customer": "Fi-hi",
+        "service": "2D Rendering",
+        "caseImage": "/dev/images/casePage/case1-billede2.png",
+        "gallery": [
+            "/dev/images/casePage/case1-billede1.png",
+            "/dev/images/casePage/case1-billede2.png",
+            "/dev/images/casePage/case1-billede3.png",
+            "/dev/images/casePage/case1-billede4.png",
+            "/dev/images/casePage/case1-billede5.png",
+            "/dev/images/casePage/case1-billede6.png",
+            "/dev/images/casePage/space_man5_00371.png"
+        ],
+        "backgroundColor": "#64BCE9"
+    },
+    {
+        "pathId": "two-roar",
+        "title": "Two roar",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem perferendis similique libero est odit perspiciatis fugiat repellendus nisi ex incidunt! Unde iste soluta odio sed maxime mollitia odit cumque eligendi?",
+        "customer": "Fi-hi",
+        "service": "2D Rendering",
+        "caseImage": "/dev/images/casePage/case1-billede6.png",
+        "gallery": [
+            "/dev/images/casePage/case1-billede1.png",
+            "/dev/images/casePage/case1-billede2.png",
+            "/dev/images/casePage/case1-billede3.png",
+            "/dev/images/casePage/case1-billede4.png",
+            "/dev/images/casePage/case1-billede5.png",
+            "/dev/images/casePage/case1-billede6.png",
+            "/dev/images/casePage/space_man5_00371.png"
+        ],
+        "backgroundColor": "#64BCE9"
+    }
+]
