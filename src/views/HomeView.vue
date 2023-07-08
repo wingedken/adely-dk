@@ -51,13 +51,7 @@
 							alt="Wide arrow"
 						/>
 					</article>
-					<div
-						href="#middle"
-						:class="[
-							'video-section',
-							inCinematic ? 'video-container' : '',
-						]"
-					>
+					<div class="video-section">
 						<div class="controls">
 							<button class="skip back" @click.stop="skipBack">
 								<img src="/dev/images/back.svg" alt="" />
@@ -122,14 +116,13 @@
 				<article class="about_content">
 					<h1 class="heading">Vores historie</h1>
 					<p class="paragraph">
-						Det hele startede med William, han solgte en mindre
-						virksomhed tilbage i 2018, fordi han blev ansat som
-						marketingansvarlig i en virksomhed i vækst, men gnisten
-						for hjemmesider var der stadig. Så han startede WRJ
-						Media! <br /><br />Siden da har vi samarbejdet med CG
-						Shift, som er et animationsproduktionsbureau, hvilket
-						gør at vi kan levere holistiske designløsninger under ét
-						tag.
+						Det hele startede med William, han solgte en mindre virksomhed tilbage i
+						2018, fordi han blev ansat som marketingansvarlig i en
+						virksomhed i vækst, men gnisten for hjemmesider var der
+						stadig. Så han startede WRJ Media! <br /><br />Siden da
+						har vi samarbejdet med CG Shift, som er et
+						animationsproduktionsbureau, hvilket gør at vi kan
+						levere holistiske designløsninger under ét tag.
 					</p>
 				</article>
 				<div class="about image-section">
@@ -144,10 +137,8 @@
 						class="linkedin"
 						target="_blank"
 					>
-						<b
-							>William Ross Jepsen <br />
-							Direktør, WRJ Media</b
-						>
+						<b>William Ross Jepsen <br />
+						Direktør, WRJ Media</b>
 					</a>
 				</div>
 				<footer class="footer">
@@ -211,7 +202,7 @@
 						/>
 					</div>
 				</article>
-				<SectionBorder class="only-mobile" :color="'black'" />
+        <SectionBorder class="only-mobile" :color="'black'" />
 				<article class="twoColumns reports">
 					<h3 class="heading">Hvad siger de om os</h3>
 					<section class="reportsInner">
@@ -266,11 +257,12 @@ export default {
 	data() {
 		return {
 			inCinematic: false,
-			//playing: false,
+			playing: false,
 		};
 	},
 	methods: {
 		toggleCinematic() {
+
 			this.inCinematic = !this.inCinematic;
 			if (this.inCinematic) {
 				const element = document.getElementById('latest');
@@ -346,13 +338,13 @@ header.header {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	padding-bottom: 50px; //50
+	padding-bottom: 50px;
 	background-position: 50%, 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
 	position: relative;
-	margin-bottom: 174px; //174
+	margin-bottom: 174px;
 	& > * {
 		position: relative;
 	}
@@ -362,7 +354,6 @@ header.header {
 		left: 0;
 		height: 100%;
 		width: 100%;
-		// object-fit: fill;
 		object-fit: cover;
 	}
 	.tagline {
@@ -373,8 +364,8 @@ header.header {
 		font-size: 25px;
 		font-weight: 400;
 		&.v-enter-from {
-			transform: translateY(20px); //20
-			transform-origin: 50%;//50
+			transform: translateY(20px);
+			transform-origin: 50%;
 			opacity: 0;
 		}
 	}
@@ -395,42 +386,22 @@ header.header {
 main.main {
 	section.latest {
 		.inner {
-			height: max-content;
+			height:max-content;
 			display: flex;
 			//max-height: 90vh;
 			transition-property: margin-top;
 			transition-timing-function: ease;
 			transition-duration: 350ms;
-			padding-bottom: 140px; //
-
-			.video-section.video-container {
-				position: relative;
-				width: 100%;
-				height: 100vh;
-				overflow: hidden;
-			}
-
-			.video-section.video-container video {
-				position: absolute;
-				top: 50%; //50
-				left: 50%;// 50
-				transform: translate(-50%, -50%); //50 -50
-
-				background-size: cover;
-				min-width: 100%;
-				min-height: 100%;
-				width: auto;
-				height: auto;
-			}
+			padding-bottom: 174px;
 			.video-section {
-				flex-grow: 2;
+				flex-grow: 1;
 				width: 600px;
 				transition-property: opacity, max-width, transform;
 				transition-timing-function: ease;
 				transition-duration: 350ms;
 				position: relative;
 				cursor: pointer;
-				height: inherit;
+        height: inherit;
 				video {
 					width: 100%;
 					height: auto;
@@ -472,9 +443,9 @@ main.main {
 				}
 			}
 		}
-		.arrow {
-			margin-top: 50px;
-		}
+    .arrow{
+      margin-top: 50px;
+    }
 		.content {
 			width: 500px;
 		}
@@ -528,7 +499,7 @@ main.main {
 			font-size: 20px;
 			line-height: 135%;
 			max-width: 580px;
-			margin-top: 27px;
+      margin-top: 27px;
 		}
 	}
 	section.featured {
@@ -562,12 +533,12 @@ main.main {
 			gap: 18px;
 			height: max-content;
 			width: 80%;
-			align-items: center;
+      align-items: center;
 
 			img {
-				display: flex;
-				align-items: center;
-				justify-content: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 				max-width: 90px;
 				max-height: 90px;
 				object-fit: contain;
@@ -600,12 +571,12 @@ main.main {
 					.customerName {
 						font-weight: bold;
 						font-weight: 600;
-						margin-top: 0px;
+            margin-top: 0px;
 						font-size: 20px !important;
 						line-height: 130%;
 					}
 					.customerPerson {
-						color: rgba(0, 0, 0, 0.5);
+						color: rgba(0,0,0,.5);
 						font-weight: 400;
 						font-size: 20px;
 						line-height: 135%;
@@ -627,7 +598,7 @@ main.main {
 	}
 }
 .only-mobile {
-	display: none;
+  display: none;
 }
 @media screen and (min-width: 900px) {
 	main.main section.latest.cinematic {
@@ -692,7 +663,7 @@ main.main {
 		}
 	}
 }
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 768px) {
 	main.main section.latest {
 		margin-top: 20px;
 		.arrow {
@@ -719,68 +690,67 @@ main.main {
 	}
 }
 @media screen and (max-width: 500px) {
-	.tagline {
-		margin-top: 5px;
-		font-size: 20px !important;
-	}
-	.logo-section {
-		margin-top: 80px;
-	}
-	.only-mobile {
-		display: block;
-	}
 
-	.video-section {
-		margin-top: 59px !important;
-	}
+  .tagline {
+    margin-top: 5px;
+    font-size: 20px !important;
+  }
+  .logo-section {
+    margin-top: 80px;
+  }
+  .only-mobile {
+    display: block;
+  }
 
-	section.latest {
-		.inner {
-			padding-bottom: 66px !important;
-		}
-	}
-	.customersGrid {
-		justify-content: center;
-		margin-top: 20px;
-		img {
-			width: 85px !important;
-			height: 85px !important;
-		}
-	}
+  .video-section {
+    margin-top: 59px !important;
+  }
+
+  section.latest {
+    .inner {
+      padding-bottom: 66px !important;
+    }
+  }
+  .customersGrid {
+    justify-content: center;
+    margin-top: 20px;
+    img {
+      width: 85px !important;
+      height: 85px !important;
+    }
+  }
 	header.header {
-		margin-bottom: 78px !important;
+    margin-bottom: 78px !important;
 		.pageHeading {
 			font-size: 64px;
 		}
 	}
-	section.about {
-		.person {
-			height: 450px !important;
-			grid-area: person;
-		}
-		.linkedin {
-			display: none !important;
-		}
-	}
-	.heading,
-	.primaryHeading {
-		font-size: 44px !important;
-	}
-	.description,
-	.paragraph {
-		font-size: 20px !important;
-		font-weight: normal !important;
-		margin-top: 25px !important;
-		color: #2d2d2d !important;
-	}
+  section.about {
+    .person {
+      height: 450px !important;
+      grid-area: person;
+    }
+    .linkedin {
+      display: none !important;
+    }
+  }
+  .heading, .primaryHeading {
+    font-size: 44px !important;
+  }
+  .description, .paragraph {
+    font-size: 20px !important;
+    font-weight: normal !important;
+    margin-top: 25px !important;
+    color: #2d2d2d !important;
+  }
 	main.main {
 		section.about {
 			display: grid;
 			grid-template-columns: 1fr;
 			grid-template-areas: "." "." "person" "footer";
-			.person {
-				width: 100%;
-			}
+        .person {
+          width: 100%;
+        }
 		}
 		section.featured {
 			margin-top: 80px;
@@ -818,17 +788,17 @@ main.main {
 			}
 			.reports {
 				margin: 30px 0;
-				.heading {
-					font-size: 34px !important;
-					margin-top: 55px !important;
-				}
+        .heading {
+          font-size: 34px !important;
+          margin-top: 55px !important;
+        }
 				.reportCard {
 					width: 100%;
 					margin-bottom: 20px;
 					.quote {
 						font-size: 18px;
-						color: #2b2b2b;
-						margin-top: 55px !important;
+            color: #2b2b2b;
+            margin-top: 55px !important;
 					}
 					.customerInner {
 						margin-bottom: 10px;
@@ -837,7 +807,7 @@ main.main {
 							font-size: 15px;
 						}
 						.customerPerson {
-							color: rgba(0, 0, 0, 0.5) !important;
+              color: rgba(0,0,0,.5) !important;;
 							font-size: 16px;
 						}
 					}
@@ -861,9 +831,9 @@ main.main {
 		padding: 30px 20px 100px 20px;
 		flex-shrink: 0;
 		display: flex;
-		.twoColumns {
-			grid-template-columns: 1fr auto;
-		}
+    .twoColumns {
+      grid-template-columns: 1fr auto;
+    }
 		flex-direction: column;
 		.backToTop {
 			font-size: 15px;
@@ -899,7 +869,7 @@ main.main {
 			color: lightgray;
 			margin-top: auto;
 			justify-content: center;
-			opacity: 0.6;
+      opacity: .6;
 			* {
 				color: white;
 			}
