@@ -117,7 +117,7 @@
 					<h1 class="heading">Vores historie</h1>
 					<p class="paragraph">
 						Det hele startede med William, han solgte en mindre virksomhed tilbage i
-						2018, fordi han blev ansat som marketingansvarlig i en
+						2018, fordi at han blev ansat som marketingansvarlig i en
 						virksomhed i vækst, men gnisten for hjemmesider var der
 						stadig. Så han startede WRJ Media! <br /><br />Siden da
 						har vi samarbejdet med CG Shift, som er et
