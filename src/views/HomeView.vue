@@ -7,6 +7,8 @@
 				autoplay="true"
 				muted="true"
 				loop
+				playsinline 
+				
 			></video>
 			<Transition appear>
 				<h1 class="pageHeading">
@@ -51,7 +53,7 @@
 							alt="Wide arrow"
 						/>
 					</article>
-					<div class="video-section">
+					<div class="video-section wrapper">
 						<div class="controls">
 							<button class="skip back" @click.stop="skipBack">
 								<img src="/dev/images/back.svg" alt="" />
@@ -81,6 +83,7 @@
 							</button>
 						</div>
 						<video
+							poster="/dev/images/video-poster.png"
 							:src="pageData.latest"
 							ref="latestVideo"
 							@click="toggleCinematic"
@@ -611,7 +614,8 @@ main.main {
 		}
 		video {
 			cursor: default;
-			height: 200px;
+			height: 100vh!important;
+			object-fit: cover;
 		}
 		article {
 			width: 0px;
@@ -622,7 +626,10 @@ main.main {
 			left: 50px !important;
 			bottom: 50px !important;
 		}
+		
 	}
+	
+		
 }
 @media screen and (min-width: 1450px) {
 	.about {
@@ -676,8 +683,8 @@ main.main {
 				width: 100%;
 				margin-top: 30px;
 				cursor: default;
+				
 			}
-
 			article {
 				width: 100%;
 				max-width: 100%;
@@ -685,7 +692,11 @@ main.main {
 			.content {
 				width: 100%;
 				height: max-content;
+			}	
+			.controls {
+				display: none !important;;
 			}
+	
 		}
 	}
 }

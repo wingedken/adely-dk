@@ -9,7 +9,7 @@
 				<a href="/" class="link">
 					<img
 						:src="logourl"
-						style="height: 30px; width: auto"
+						style="height: 32px; width: auto"
 						alt=""
 					/>
 				</a>
@@ -77,8 +77,8 @@
       <li class="listItem logo mr-0" v-if="$route.name != 'home' && window?.innerWidth < 500">
         <a href="/" class="link">
           <img
-              src="/dev/images/wrj-media-2023.svg"
-              style="height: 30px; width: auto"
+              src="/dev/images/logo.svg"
+              style="height: 32px; width: auto"
               alt=""
           />
         </a>
@@ -110,7 +110,7 @@ export default {
 		getLogoUrl() {
 			const route = this.$route;
 			if (route.name == "home") {
-				this.logourl = "/dev/images/wrj-media-2023.svg";
+				this.logourl = "/dev/images/logo.svg";
 				return;
 			}
 			this.logourl = "/dev/images/wrj-media-2023-sort.svg";
