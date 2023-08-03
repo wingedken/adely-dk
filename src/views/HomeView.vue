@@ -607,7 +607,7 @@ main.main {
 	main.main section.latest.cinematic {
 		height: max-content;
 		.inner {
-			margin-top: -50px;
+			margin-top: 0px;
 			max-height: max-content;
 			height: max-content;
 			cursor: default;
@@ -615,7 +615,7 @@ main.main {
 		video {
 			cursor: default;
 			height: 100vh!important;
-			object-fit: cover;
+			object-fit: contain;
 		}
 		article {
 			width: 0px;
@@ -623,8 +623,8 @@ main.main {
 			transform: scale(0.7);
 		}
 		.controls {
-			left: 50px !important;
-			bottom: 50px !important;
+			left: 125px !important;
+			bottom: 75px !important;
 		}
 		
 	}
